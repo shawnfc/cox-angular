@@ -1,0 +1,40 @@
+$top-nav-text: #202020;
+
+.pf-top-header {
+    background: #F2F6F7;
+
+    .pf-top-header-container {
+        max-width: 940px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        height: 34px;
+        padding-left: 0;
+
+        li {
+            text-decoration: none;
+            list-style: none;
+            padding: 0 18px;
+            font-size: .75em;
+            border-right: 1px solid grey;
+
+            &:last-child {
+                border-right: none;
+            }
+
+            a {
+                color: $top-nav-text;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

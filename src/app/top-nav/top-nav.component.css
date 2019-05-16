@@ -1,0 +1,47 @@
+.pf-top-header {
+  background: #F2F6F7;
+}
+
+.pf-top-header .pf-top-header-container {
+  max-width: 940px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pf-top-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+  height: 34px;
+  padding-left: 0;
+}
+
+.pf-top-header ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 18px;
+  font-size: .75em;
+  border-right: 1px solid grey;
+}
+
+.pf-top-header ul li:last-child {
+  border-right: none;
+}
+
+.pf-top-header ul li a {
+  color: #202020;
+}
+
+.pf-top-header ul li a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=top-nav.component.css.map */
