@@ -1,0 +1,68 @@
+.main-nav-container {
+  min-height: 86px;
+}
+
+.main-nav-container #main-nav {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 84px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav-container #main-nav img#cox-logo {
+  height: 36px;
+}
+
+.main-nav-container #main-nav .left-main-nav,
+.main-nav-container #main-nav .right-main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav-container #main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1rem;
+}
+
+.main-nav-container #main-nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.main-nav-container #main-nav ul li a {
+  color: #202020;
+}
+
+.main-nav-container #main-nav .right-main-nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-nav-container #main-nav .right-main-nav input {
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.main-nav-container #main-nav .right-main-nav li {
+  margin-right: 0;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=main-nav.component.css.map */

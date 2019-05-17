@@ -1,0 +1,50 @@
+.main-nav-container {
+    min-height: 86px;
+
+    #main-nav {
+        max-width: 940px;
+        margin: 0 auto;
+        height: 84px;
+        display: flex;
+
+        img#cox-logo {
+            height: 36px;
+        }
+
+        .left-main-nav,
+        .right-main-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            margin-top: 1rem;
+
+            li {
+                list-style: none;
+                margin-right: 20px;
+
+                a {
+                    color: #202020;
+                }
+            }
+        }
+        .right-main-nav {
+            justify-content: flex-end;
+
+            input {
+                border: 2px solid grey;
+                border-radius: 20px;
+                padding-left: 10px;
+            }
+            
+            li {
+                margin-right: 0;
+                margin-left: 20px;
+            }
+        }
+    }
+}
